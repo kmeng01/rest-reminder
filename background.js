@@ -18,7 +18,7 @@ async function init() {
     var cur = await getActivation();
     var durationMin = await getDurationMin();
     if (cur == undefined) chrome.storage.sync.set({isOn: true}, function() {});
-    chrome.storage.sync.set({durationMin: 20}, function() {});
+    chrome.storage.sync.set({durationMin: 25}, function() {});
 
     chrome.alarms.onAlarm.addListener((alarm) => {
         audio.currentTime = 0
