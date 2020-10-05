@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rest Reminder</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="pbar.css">
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div class="boldifier-header">
+    <h1 class="logo">
+      <img src="icon_full.png">
+      Rest Reminder
+      <span class="version">(v1.0.0)</span>
+    </h1>
+  </div>
+  <p>Nudges you to rest your eyes in customizable intervals</p>
+  <label id="onOffToggle" class="switch" style="margin-bottom: 10px;">
+    <input type="checkbox">
+    <span class="slider round"></span>
+  </label>
+
+  <div id="timeElapsed" style="padding-bottom: 5px;">
+    Time Till Rest: --:--
+  </div>
+  <div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+
+  <div class="boldifier-icons">
+    <div class="flex-container">
+      <div class="flex">
+        <a href="https://kmeng01.github.io" target="_blank">
+          <i class="fa fa-globe" style="color:darksalmon "></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.twitter.com/vericlaim" target="_blank">
+          <i class="fa fa-twitter" style="color:darksalmon "></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.github.com/kmeng01/rest-reminder" target="_blank">
+          <i class="fa fa-github" style="color:darksalmon "></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
